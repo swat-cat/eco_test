@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EcoTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="boilers">boilers</string>
+    <string name="calc_kilns">calc_kilns</string>
+    <string name="lime_kilns">lime_kilns</string>
+    <string name="start_report_message">Choose equipment</string>
+    <string name="new_session_message">Choose new test session type:</string>
+    <string name="test_date_list_item">%1$s</string>
+    <string name="is_equipment_at_work">At work</string>
+    <string name="O2">O2, %</string>
+    <string name="CO_ppm">CO,ppm</string>
+    <string name="CO_mg_m3">CO,mg\\m3</string>
+    <string name="NOx_ppm">NOx,ppm</string>
+    <string name="NOx_mg_m3">NOx,mg\\m3</string>
+    <string name="temperature">t, degrees Celc.</string>
+    <string name="start_time_label">Test starts at:</string>
+    <string name="end_time_label">Test ends at:</string>
+    <string name="index_out_of_limit">Index is out of limit!</string>
+    <string name="date_picker_title">Choose date:</string>
+    <string name="time_picker_title">Choose time:</string>
+    <string name="send_report">Send report via</string>
+    <string name="choose_report">Choose report</string>
+    <string name="boilers_session">New boilers session</string>
+    <string name="calc_kilns_session">New calc.kilns session</string>
+    <string name="lime_kiln_session">New lime kilns session</string>
+    <string name="edit_report">Edit existing report</string>
+
+
+</resources>

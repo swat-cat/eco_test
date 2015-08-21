@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <CheckBox android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              android:padding="6dp"
+              android:focusable="false"
+              android:enabled="false"
+              android:layout_alignParentRight="true"
+              android:gravity="center"
+              android:id="@+id/list_equipment_isAtWork"
+              android:text="@string/is_equipment_at_work"/>
+
+    <TextView android:layout_height="wrap_content"
+              android:layout_width="match_parent"
+              android:id="@+id/equipmentType_list_item_label"
+              android:text="Equipment Type and Number"
+              android:paddingRight="4dp"
+              android:paddingLeft="4dp"
+              android:textStyle="bold"
+              android:layout_toLeftOf="@+id/list_equipment_isAtWork"/>
+
+    <TextView android:layout_height="wrap_content"
+              android:layout_width="match_parent"
+              android:id="@+id/date_of_test_item"
+              android:text="Date of test"
+              android:paddingRight="4dp"
+              android:paddingLeft="4dp"
+              android:layout_toLeftOf="@+id/list_equipment_isAtWork"
+              android:paddingTop="4dp"
+              android:layout_below="@+id/equipmentType_list_item_label"/>
+</RelativeLayout>
